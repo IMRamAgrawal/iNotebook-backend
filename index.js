@@ -4,7 +4,7 @@ var cors = require('cors')
 //require("./db")
 const app = express()
 const connectDB = require('./conn/conn');
-connectDB();
+
 const PORT = process.env.PORT || 5000
 
  
